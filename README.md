@@ -38,9 +38,35 @@ hate-speech-detection/
 
 Antes de executar o notebook, é necessário instalar as dependências do projeto, o que pode ser feito através do seguinte comando:
 
+Dependências Básicas :
 
-> pip install pandas numpy scikit-learn tensorflow nltk
+>pip install jupyter  # Para rodar o Jupyter Notebook
+>pip install numpy  # Para operações matemáticas e matriciais
+>pip install pandas  # Para manipulação e análise de dados
 
+
+Dependências para Processamento de Linguagem Natural :
+
+> pip install nltk  # Natural Language Toolkit, para tarefas de NLP
+
+Dependências para Machine Learning :
+
+>pip install scikit-learn  # Para algoritmos de aprendizado de máquina e ferramentas de modelagem
+>pip install tensorflow  # Para redes neurais e aprendizado profundo
+
+Dependências para Manipulação de Dados e Preprocessing :
+
+>pip install beautifulsoup4  # Para web scraping e limpeza de dados HTML
+
+Dependências para Visualização de Dados :
+
+>pip install matplotlib  # Para criação de gráficos e visualizações
+>pip install seaborn  # Baseado em matplotlib, para visualizações estatísticas mais bonitas
+
+Comando de Instalação Agrupado :
+Para facilitar, você também pode instalar todas essas dependências de uma vez com o seguinte comando ->
+
+> pip install jupyter numpy pandas nltk scikit-learn tensorflow beautifulsoup4 matplotlib seaborn
 
 
 ### Execução
